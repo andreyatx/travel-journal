@@ -1,0 +1,19 @@
+.navbar {
+  background: #2e00d3;
+  display: flex;
+  padding-block: 16px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.navImage {
+  margin-right: 10px;
+}
+.navTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
