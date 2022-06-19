@@ -1,17 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import Card from "./components/Card";
-import data from "./data";
+import Cards from "./components/Cards/Cards";
 
 function App() {
-  const cards = data.map((item) => {
-    return <Card key={item.id} {...item} />;
-  });
   return (
     <div className="App">
       <Navbar />
-      <section className="cards-list">{cards}</section>
+      <Cards />
     </div>
   );
 }
